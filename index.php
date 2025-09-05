@@ -19,8 +19,8 @@
     <br/>
     <br/>
     download some file:
-    <a href="./download.php?disposition=attachment&file=www/users/1/bla.txt"
-       target="_blank">bla.txt</a><br/>
+    <a href="./download.php?disposition=attachment&file=docs/report.pdf"
+       target="_blank">docs/report.pdf</a><br/>
     <br/>
     <br/>
     <a href="./session_login.php">login</a> | <a href="./session_logout.php">logout</a>
