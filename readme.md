@@ -45,12 +45,12 @@ All file requests will be restricted to this folder.
    **Examples:**
 
    - Display an image in browser:
-     ```
+     ```php
      download.php?file=www/users/1/logo.png
      ```
 
    - Force file download:
-     ```
+     ```php
      download.php?file=docs/report.pdf&disposition=attachment
      ```
 
@@ -78,7 +78,7 @@ All file requests will be restricted to this folder.
 
 1. User logs in → `$_SESSION["status"] = "logged in";`  
 2. Browser requests:  
-   ```
+   ```php
    download.php?file=docs/report.pdf
    ```
 3. Script validates:  
